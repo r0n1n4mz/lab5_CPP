@@ -2,6 +2,6 @@
 
 class GeometricBody{
     public:
-        virtual double surfaceArea();
-        virtual double volume();
+        virtual double surfaceArea() = 0;
+        virtual double volume() = 0;
 };

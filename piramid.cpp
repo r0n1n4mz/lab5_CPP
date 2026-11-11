@@ -30,5 +30,5 @@ double Piramid::surfaceArea(){
 }
 
 double Piramid::volume(){
-    return (1/3*this->l*this->w*this->h);
+    return ((this->l*this->w*this->h)/3);
 }
